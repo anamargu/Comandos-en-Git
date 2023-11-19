@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Comandos en Git.</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 85px;
+  text-align: center;
+  background: #af4744;
+  color: rgb(250, 252, 250);
+}
+
+
+.header h1 {
+  font-size: 40px;
+}
+
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.side {
+  flex: 30%;
+  background-color: rgba(177, 241, 250, 0.425);
+  padding: 20px;
+}
+
+.main {   
+  flex: 70%;
+  background-color: rgb(245, 239, 170);
+  padding: 20px;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="header">
+  <h1>Comandos Básicos en GIT.</h1>
+  <p>programación I.</p>
+</div>
+
+
+
+<div class="row">
+  <div class="side">
+    <h2>¿Qué son los comandos básicos en Git?</h2>
+    <h5>Los comandos básicos en Git son instrucciones que se utilizan en la línea de comandos para interactuar con el
+         sistema de control de versiones Git.</h5>
+
+
+   <!-- CHICAS AQUÍ PODRÍA IR UNA IMAGEN Pao, si mal no recuerdo tú pones las imágenes -->
+
+
+         <p>Estos comandos básicos son esenciales para llevar a cabo un flujo de trabajo efectivo con Git, permitiendo el 
+        seguimiento de versiones, la colaboración entre desarrolladores y la gestión eficiente de proyectos de software.</p>
+  
+  
+  
+  <div class="main">
+    <h2>Algunos de estos comandos son:</h2>
+    <style>
+
+        table, th, td {
+          font-family: cursive;
+
+            border:1px solid rgb(115, 29, 244);
+          }
+        </style>
+            <table style="width:100%" >
+                <mark>
+            <tr>
+              <th>-git init:</th>
+              <th>-git clone <URL>:</th>
+              <th>-git add <archivo>:  </th>
+              <th>-git commit -m </th>
+              <th>-git status:</th>
+              <th>-git pull: :</th>
+              <th>-git push:</th>
+              <th>-git branch:</th>
+              <th>-git checkout:</th>
+
+            </tr>
+        </mark> 
+            <tr>
+              <td>Este comando se utiliza para inicializar un nuevo repositorio Git en un directorio vacío 
+                o existente. Crea una carpeta oculta llamada ".git" que contiene todos los archivos necesarios
+                 para realizar un seguimiento de los cambios en tu proyecto.</td>
+              <td>Clonar un repositorio remoto en tu sistema local. La URL es la dirección del repositorio 
+                remoto que deseas clonar. Esto descargará una copia del repositorio remoto en tu sistema.</td>
+              <td>Agregar cambios en un archivo al área de preparación (staging). Antes de realizar un commit, 
+                debes agregar los archivos que deseas incluir en ese commit utilizando este comando.</td>
+              <td>
+                Crea un nuevo commit con los cambios en el área de preparación y un mensaje descriptivo que
+                 explica el propósito del commit. Los commits son instantáneas de los cambios en tu repositorio.
+              </td>
+              <td> Muestra el estado de los archivos en tu repositorio. Indica qué archivos están modificados, 
+                en el área de preparación o sin seguimiento. Es útil para conocer el estado actual de tu proyecto.</td>
+              <td> Obtiene los cambios más recientes desde un repositorio remoto y los fusiona en tu rama actual. 
+                Es útil para mantener tu repositorio local actualizado con respecto al remoto.</td>
+                <td>Sube tus cambios locales a un repositorio remoto. Esto actualiza el repositorio remoto con
+                     los cambios que has realizado en tu rama local.</td>
+                    <td>Muestra una lista de ramas en tu repositorio y resalta la rama actual. Puedes ver las ramas
+                         disponibles y saber en cuál te encuentras actualmente.</td>
+                        <td>Cambia a una rama específica. Este comando te permite moverte entre las diferentes ramas
+                             de tu proyecto.</td>
+            </tr>
+            
+          </table>
+    
+          <!-- NATA, BABY SI QUIERES AQUÍ, TÚ ENCÁRGATE DE AGREGAR UN POQUITO MÁS DE INFORMACIÓN  -->
+
+</body>
+</html>
